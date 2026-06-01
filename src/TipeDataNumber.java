@@ -1,4 +1,4 @@
-public class Main {
+public class TipeDataNumber {
     public static void main(String[] args) {
         // Integer types
         byte umur = 25;               // -128 s/d 127
