@@ -8,6 +8,7 @@ public class TipeDataString {
         String nama = "Budi Santoso";
         String kota = "Jakarta";
 
+
         // Cara 2: Menggunakan new String() (jarang dipake)
         String alamat = new String("Jl. Mawar No. 123");
 
@@ -88,5 +89,15 @@ public class TipeDataString {
             System.out.print("[" + k + "] ");
         }
         System.out.println();
+
+
+        String namaDepan = "Audyari";
+        int alamatMemori = System.identityHashCode(namaDepan);
+        System.out.println("Alamat Memori: " + alamatMemori);
+
+        String namaBelakang = "Wiyono";
+        String FullName = namaDepan + " " + namaBelakang;
+
+        System.out.println("Full name: " + FullName);
     }
 }
